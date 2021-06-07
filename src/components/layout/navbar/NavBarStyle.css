@@ -1,0 +1,60 @@
+.navbar {
+    box-sizing: border-box;
+}
+
+.navbar:hover .link{
+    justify-content: flex-start !important;
+   
+}
+
+
+.NavItemText {
+    display: none;
+}
+
+
+
+
+
+
+.navbar:hover {
+    
+    width: 20% !important;
+    
+}
+
+.navbar:hover .NavItemText {
+    display: block;
+   
+}
+
+
+.navItem:hover{
+    opacity: 0.6;
+}
+
+
+.logoIcon{
+    transform: rotate(0deg);
+    transition:  2s;
+    
+}
+
+.navbar:hover .logoLi{
+    
+    background: #00b3b3;
+ }
+
+.navbar:hover .logoIcon{
+    transform: rotate(-540deg);
+    
+ }
+
+
+ .logoText{
+     color: rgb(243, 187, 82) !important;
+ }
+
+
+
+/* NavWrapper */
